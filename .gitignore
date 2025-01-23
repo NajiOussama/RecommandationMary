@@ -2,3 +2,6 @@
 postal_code_coordinates.json
 __pycache__/
 *.pyc
+recommender.ipynb
+test_recommender.ipynb
+utils.py
