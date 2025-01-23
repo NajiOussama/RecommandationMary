@@ -6,7 +6,7 @@ import openai
 load_dotenv()
 
 # Récupérer la clé API directement depuis les variables d'environnement
-openai.api_key = ""
+openai.api_key = os.getenv("OPENAI_API_KEY")
 from openai import OpenAI
 import pandas as pd 
 import geopy
