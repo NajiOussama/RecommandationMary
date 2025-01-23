@@ -1,0 +1,4 @@
+.env
+postal_code_coordinates.json
+__pycache__/
+*.pyc
